@@ -91,7 +91,12 @@ figure {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-
+.left-column {
+  padding-left: 240px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-right: 240px;
+}
 .right-column {
   margin-left: 72px;
   margin-right: 240px;
@@ -100,4 +105,31 @@ figure {
 }
 figcaption {
   margin-top: 16px;
+}
+.second-par {
+  padding-top: 40px;
+}
+table {
+  border: 3px solid var(--lightteal);
+  margin-bottom: 40px;
+  border-radius: 4px;
+}
+th, td {
+  padding: 20px;
+  border: 2px solid grey
+}
+caption {
+  text-align: left;
+  font-weight: bolder;
+  color: var(--darkgrey);
+  margin-bottom: 16px;
+}
+.button-link {
+  padding: 16px;
+  background-color: var(--darkteal);
+  color: white;
+  border-radius: 4px;
+}
+.button-link:hover {
+  background-color: var(--lightteal);
 }
