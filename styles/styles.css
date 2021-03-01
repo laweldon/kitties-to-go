@@ -1,7 +1,7 @@
 /* Color variables */
 :root {
-  --darkteal: #2C9AB7;
-  --lightteal: #52BAD5;
+  --darkteal: #257F98;
+  --lightteal: #2EA0BD;
   --darkgrey: #3A3A3A;
   --lightgrey: #EBEBEB;
   --white: #ffffff;
@@ -132,4 +132,14 @@ caption {
 }
 .button-link:hover {
   background-color: var(--lightteal);
+}
+
+.hidden {
+  position: absolute;
+  left:-10000px;
+  top: 0px;
+}
+.hidden:focus {
+  position: relative;
+  left: 0px;
 }
